@@ -9,5 +9,5 @@ def alphabet_position(sentence):
             else:
                 ans += str(ord(letter)-96)
                 ans += ' '       
-    return ans
+    return ans.strip()
 
